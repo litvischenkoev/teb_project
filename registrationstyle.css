@@ -1,0 +1,16 @@
+.form-control {     
+	width: 300px;
+} 
+/*.comentinline {     display: inline; }*/
+.input-group,
+.btn-group {
+	margin-left: 20px;
+}
+
+
+.ng-invalid.ng-dirty{
+  border-color: #FA787E;
+}
+.ng-valid.ng-dirty{
+  border-color: #78FA89;
+}

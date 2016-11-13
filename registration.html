@@ -1,0 +1,62 @@
+<div ng-controller="validationCtrl">
+<h2>Проверка формы в AngularJS</h2>
+    <form  name="sampleForm">
+        <div class="input-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" name="username" ng-model="username" required>
+            <span ng-show="sampleForm.username.$dirty && sampleForm.username.$invalid"></span>
+            <span ng-show="sampleForm.username.$error.required">Имя пользователя обязательно.</span>
+        </div><br> 
+        <div class="input-group">
+            <label>Surname:</label>
+            <input type="text" class="form-control" name="usersurname" ng-model="usersurname" required>
+            <span ng-show="sampleForm.usersurname.$dirty && sampleForm.usersurname.$invalid"></span>
+            <span ng-show="sampleForm.usersurname.$error.required" class="comentinline">Фамилия пользователя обязательно.</span>
+        </div><br> 
+        <div class="input-group">   
+            <label>Email:</label>
+            <input type="email" class="form-control" name="email" ng-model="email" required>
+            <span ng-show="sampleForm.email.$dirty && sampleForm.email.$invalid"></span>
+            <span ng-show="sampleForm.email.$error.required">Email пользователя обязательно.</span>
+        </div><br>
+        <div class="btn-group">
+            <label>Sex:</label><span ng-show="sampleForm.sex.$error.required"> Sex пользователя обязательно.</span>
+            <br>    
+            <span><input ng-model="sex" name="sex" type="radio" value="Male" required> Male</span>
+            <span><input ng-model="sex" name="sex" type="radio" value="Female" required> Female</span>
+
+
+            <!-- <label class="btn btn-primary" ng-model="sex" uib-btn-radio="'Male'">Male</label>
+            <label class="btn btn-primary" ng-model="sex" uib-btn-radio="'Female'">Female</label> -->
+            <pre>{{sex || 'null'}}</pre>
+        </div><br>      
+        <!-- <div class="input-group"  ng-controller="DatepickerPopupDemoCtrl> -->
+        <!-- <div class="input-group">
+            <input type="text" class="form-control" uib-datepicker-popup="'dd.MM.yyyy'" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+            <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+        </div><br> -->
+        <div class="input-group">   
+            <label>Address:</label>
+            <input type="text" class="form-control" name="address" ng-model="address" required>
+            <span ng-show="sampleForm.address.$dirty && sampleForm.address.$invalid"></span>
+            <span ng-show="sampleForm.address.$error.required" class="comentinline">Address обязателен.</span>
+        </div><br>
+        <div class="input-group">   
+            <label>Weight:</label>
+            <input type="text" class="form-control" name="weight" ng-model="weight" required>
+            <span ng-show="sampleForm.weight.$dirty && sampleForm.weight.$invalid"></span>
+            <span ng-show="sampleForm.weight.$error.required" class="comentinline">Weight обязателен.</span>
+        </div><br>    
+        <div class="input-group">   
+            <label>Occupation:</label>
+            <input type="text" class="form-control" name="occupation" ng-model="occupation" required>
+            <span ng-show="sampleForm.occupation.$dirty && sampleForm.occupation.$invalid"></span>
+            <span ng-show="sampleForm.occupation.$error.required" class="comentinline">Occupation обязателен.</span>
+        </div><br>         
+            <button class="btn btn-link" ng-click="reset()">Сбросить</button>
+            <input type="submit" class="btn btn-primary" ng-click="checkData()" ng-disabled="sampleForm.$invalid" >
+    </form>
+    <div ng-model="allform"></div>
+</div>
