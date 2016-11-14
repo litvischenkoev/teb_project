@@ -27,7 +27,7 @@
             <label class="btn btn-primary" ng-model="sex" uib-btn-radio="'Female'">Female</label>
         </div>
         <br><br>      
-        <div class="input-group"  ng-controller="DatepickerPopupDemoCtrl">
+        <div class="input-group">
             <label>Birthday:</label><span ng-show="sampleForm.dt.$error.required"> Birthday пользователя обязательно.</span>
             <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
             <!-- <span class="input-group-btn"> -->
