@@ -1,4 +1,4 @@
-var weather = angular.module('weather', ['ngResource','ngRoute']);
+var weather = angular.module('weather', ['ngResource','ngRoute','ui.bootstrap']);
 
 weather.config(function($routeProvider){
         $routeProvider

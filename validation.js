@@ -2,7 +2,8 @@
 
 weather.controller('validationCtrl', function validationCtrl($scope) {
 	console.log('validationCtrl');
-	var data = {};
+	$scope.data = {};
+	// $scope.data.sex = 1;
 	$scope.reset = function(){
 		$scope.username = '';
 		$scope.email = '';
@@ -21,40 +22,73 @@ weather.controller('validationCtrl', function validationCtrl($scope) {
 	
 });
 
-// weather.controller('DatepickerPopupDemoCtrl', function DatepickerPopupDemoCtrl($scope) {
-//   console.log('DatepickerPopupDemoCtrl');
-//   $scope.today = function() {
-//     $scope.dt = new Date();
-//   };
-//   $scope.today();
 
-//   $scope.clear = function() {
-//     $scope.dt = null;
-//   };
 
-//   $scope.open1 = function() {
-//     $scope.popup1.opened = true;
-//   };
+weather.directive('validateMinWords', function () {
+	 return {
+		  restrict: 'A',
+		  require: 'ngModel',
+		  scope: {
+		   validateMinWords: '='
+		  },
+	  	link: function (scope, element, attrs, ctrl) {
+	   		ctrl.$validators.minwords=function (modelValue) {
+	    	return ctrl.$isEmpty(modelValue)|| modelValue.split(' ').length >= scope.validateMinWords;
+	   }
+	  }
+	 }
+});
 
-//   $scope.popup1 = {
-//     opened: false
-//   };
+weather.directive('lowerCase', function () {
+	 return {
+		  restrict: 'A',
+		  require: 'ngModel',
+		  scope: {
+		  },
+	  	link: function (scope, element, attrs, ctrl) {
+	   		ctrl.$parsers.push=function (value) {
+	   			if(value) {
+	    			return value.toLowercase();
+	    		}
+	   }
+	  }
+	 }
+});
 
-//   function getDayClass(data) {
-//     var date = data.date,
-//       mode = data.mode;
-//     if (mode === 'day') {
-//       var dayToCheck = new Date(date).setHours(0,0,0,0);
+weather.controller('DatepickerPopupDemoCtrl', function DatepickerPopupDemoCtrl($scope) {
+  console.log('DatepickerPopupDemoCtrl');
+  $scope.today = function() {
+    $scope.dt = new Date();
+  };
+  $scope.today();
 
-//       for (var i = 0; i < $scope.events.length; i++) {
-//         var currentDay = new Date($scope.events[i].date).setHours(0,0,0,0);
+  $scope.clear = function() {
+    $scope.dt = null;
+  };
 
-//         if (dayToCheck === currentDay) {
-//           return $scope.events[i].status;
-//         }
-//       }
-//     }
+  $scope.open1 = function() {
+    $scope.popup1.opened = true;
+  };
 
-//     return '';
-//   }
-// });
+  $scope.popup1 = {
+    opened: false
+  };
+
+  function getDayClass(data) {
+    var date = data.date,
+      mode = data.mode;
+    if (mode === 'day') {
+      var dayToCheck = new Date(date).setHours(0,0,0,0);
+
+      for (var i = 0; i < $scope.events.length; i++) {
+        var currentDay = new Date($scope.events[i].date).setHours(0,0,0,0);
+
+        if (dayToCheck === currentDay) {
+          return $scope.events[i].status;
+        }
+      }
+    }
+
+    return '';
+  }
+});
