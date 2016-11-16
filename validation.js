@@ -1,34 +1,60 @@
 // var registration = angular.module('registration', ['ngResource','ngAnimate', 'ngSanitize', 'ui.bootstrap']);
 
 weather.controller('validationCtrl', function validationCtrl($scope) {
-	console.log('validationCtrl');
-	$scope.data = {};
-	// $scope.data.sex = 1;
-	$scope.reset = function(){
-		$scope.username = '';
-		$scope.email = '';
-   }   
-   
-   $scope.checkData = function() {
-		data.username = $scope.username;
-		data.usersurname = $scope.usersurname;
-		data.email = $scope.email;
-		data.sex = $scope.sex;
-		data.address = $scope.address;
-		data.weight = $scope.weight;
-		data.occupation = $scope.occupation;
-		console.log(data);
-	}
-	
-//for calendar
-	$scope.today = function() {
-    	$scope.dt = new Date();
+   	
+    $scope.user = { 
+ 		username:'', 
+ 		usersurname:'', 
+		email:'', 
+		sex:'male', 
+		dt:'', 
+		address:'', 
+		weight:'', 
+		occupation:'',
+		hobs: [],
+		comment:'', 
+	}; 
+console.log($scope.user);
+   	$scope.max = Object.keys($scope.user).length;
+   	console.log(Object.keys($scope.user).length);
+	$scope.dynamic = 1;
+    
+    $scope.hobbies = {
+    	Reading: false,
+    	Jumping: false,
+    	Swimming: false,
+    	Cycling: false
   	};
-  	
-  	$scope.today();
 
+	$scope.reset = function(){
+		$scope.user = { 
+ 		username:'', 
+ 		usersurname:'', 
+		email:'', 
+		sex:'male', 
+		dt:'', 
+		address:'', 
+		weight:'', 
+		occupation:'',
+		hobs: [],
+		comment:'', 
+		}; 
+    }
+
+  	$scope.$watchCollection('hobbies', function () {
+    	$scope.user.hobs = [];
+    	angular.forEach($scope.hobbies, function (value, key) {
+      		if (value) {
+        		$scope.user.hobs.push(key);
+      		}
+    	});
+  	});
+
+	
+//fo calendar
+	
   	$scope.clear = function() {
-    	$scope.dt = null;
+    	$scope.user.dt = null;
   	};
 
   	$scope.open1 = function() {
@@ -39,23 +65,23 @@ weather.controller('validationCtrl', function validationCtrl($scope) {
     	opened: false
   	};
 
-  	function getDayClass(data) {
-    	var date = data.date,
-      	mode = data.mode;
-    	if (mode === 'day') {
-      		var dayToCheck = new Date(date).setHours(0,0,0,0);
+//fo progressbar 	
+	
 
-      		for (var i = 0; i < $scope.events.length; i++) {
-        		var currentDay = new Date($scope.events[i].date).setHours(0,0,0,0);
+	for (prop in $scope.user) {
+		$scope.$watch("user."+ prop, function (n,o) {
+			if(n && !o) $scope.dynamic++;
+		 		else if (!n && o) $scope.dynamic--;
 
-        		if (dayToCheck === currentDay) {
-          			return $scope.events[i].status;
-        		}
-      		}
-    	}
+		});
+	}
+	$scope.$watch("user.hobs", function (n,o) {
+		if ((n.length > o.length ) && (o.length==0)) {$scope.dynamic++;}
+		if ((n.length < o.length ) && (o.length==1)) {$scope.dynamic--;}
+	});
 
-    	return '';
-  	}
+
+
 });
 
 
@@ -82,11 +108,11 @@ weather.directive('lowerCase', function () {
 		  scope: {
 		  },
 	  	link: function (scope, element, attrs, ctrl) {
-	   		ctrl.$parsers.push=function (value) {
+	   		ctrl.$parsers.push(function (value) {
 	   			if(value) {
-	    			return value.toLowercase();
+	    			return value.toLowerCase();
 	    		}
-	   }
+	   })
 	  }
 	 }
 });
