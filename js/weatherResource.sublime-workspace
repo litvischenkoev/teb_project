@@ -1,0 +1,682 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"va",
+				"value"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"we",
+				"weather"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"te",
+				"templates"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ta",
+				"target_element"
+			],
+			[
+				"fi",
+				"filterNon"
+			],
+			[
+				"data",
+				"data_filter"
+			],
+			[
+				"le",
+				"length-1"
+			],
+			[
+				"new",
+				"newTag"
+			],
+			[
+				"ne",
+				"newTask"
+			],
+			[
+				"tagS",
+				"tagScope"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"de",
+				"delItem"
+			],
+			[
+				"get",
+				"getHashId"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"ite",
+				"itemTemplate"
+			],
+			[
+				"tag",
+				"tagFilter"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"bt",
+				"btnDel"
+			],
+			[
+				"delete",
+				"delete-item"
+			],
+			[
+				"ge",
+				"getTemplate"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"b",
+				"btnHandler"
+			],
+			[
+				"bts",
+				"btns"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"backro",
+				"background"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"me",
+				"meta	Tag"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"he",
+				"head	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "controller.js",
+			"settings":
+			{
+				"buffer_size": 620,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/projects/teb_project/Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 1307,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"last_filter": "js",
+		"selected_items":
+		[
+			[
+				"js",
+				"Project: Save As"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htt",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"jQuery",
+			"import urllib.request,os,hashlib; h = '261dd1222b4693ce6d4f85f9c827ac06' + '6d5ab8ebdd020086947172a8a1356bb6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projects/teb_project",
+		"/C/projects/teb_project/build",
+		"/C/projects/teb_project/build/js",
+		"/C/projects/teb_project/js",
+		"/C/projects/teb_project/template"
+	],
+	"file_history":
+	[
+		"/C/projects/teb_project/build/js/production.js",
+		"/C/projects/teb_project/js/validationCtrl.js",
+		"/C/projects/teb_project/index.html",
+		"/C/projects/teb_project/package.json",
+		"/C/projects/teb_project/build/js/production.min.js",
+		"/C/projects/teb_project/template/weather.html",
+		"/C/projects/teb_project/js/weatherResource.js",
+		"/C/projects/teb_project/js/weatherCtrl.js",
+		"/C/projects/teb_project/js/validationResource.js",
+		"/C/projects/teb_project/Gruntfile.js",
+		"/C/projects/teb_project/js/controller.js",
+		"/C/projects/teb_project/js/weatherResource.sublime-project",
+		"/C/projects/teb_project/angular-resource.min.js",
+		"/C/projects/teb_project/angular-route.min.js",
+		"/C/projects/teb_project/angular.min.js",
+		"/C/projects/teb_project/validation.js",
+		"/C/projects/teb_project/registration.html",
+		"/C/projects/tab/validation.js",
+		"/C/projects/tab/controller.js",
+		"/C/projects/tab/index.html",
+		"/C/projects/tab/registrationstyle.css",
+		"/C/projects/tab/registration.html",
+		"/C/projects/weather_forecast/controller.js",
+		"/C/projects/weather_forecast/style.css",
+		"/C/projects/weather_forecast/help.html",
+		"/C/projects/weather_forecast/index.html",
+		"/C/projects/weather_forecast/weather.html",
+		"/C/projects/chenge_template/controller.js",
+		"/C/projects/chenge_template/style.css",
+		"/C/projects/chenge_template/template1.html",
+		"/C/projects/chenge_template/index.html",
+		"/C/projects/chenge_template/template3.html",
+		"/C/projects/chenge_template/template2.html",
+		"/C/projects/weather/index.html",
+		"/C/projects/weather/controller.js",
+		"/C/projects/todo/js/controller.js",
+		"/C/Project_weather/index.html",
+		"/C/Project_weather/controller.js",
+		"/C/Project1/Shablon/css/style.css",
+		"/C/Project1/Shablon/template/itemTask.html",
+		"/C/Project1/Shablon/js/controller.js",
+		"/C/Project1/Shablon/template/modal.html",
+		"/C/Project1/Shablon/index.html",
+		"/C/Project_weather/style.css",
+		"/C/Project1/index.html",
+		"/C/Project1/style.css",
+		"/C/Project1/templates/progress.html",
+		"/C/Project1/controller.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/angular_pagination/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/angular_pagination/code.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_angular/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/js/itemTemplate.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/js/tagTemplate.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/js/storage.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/js/render.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/js/list.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/js/controller.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/css/style.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_02/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/js/render.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/js/list.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/js/itemTemplate.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/js/storage.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/js/controller.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/js/tagTemplate.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon_1/js/mustache.min.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/js/itemTemplate.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/js/storage.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/js/script.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/js/template/tamplate.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/template/tamplate.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/style.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/storage.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/script.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/require.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/Shablon/script1.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/Calc_if/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/Calc_if/css/style.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/Calc_switch/js/calc.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/Calc_if/js/calc.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/New1/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/New1/css/style.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/New1/js/calc.js",
+		"/C/Users/Администратор/Desktop/Evgeniy/js/New1/style.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/icons.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/common.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/media.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/main.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/content_news.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/content.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/nav_left.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/css/header.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/news1.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/Home_work/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/1/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/1/main.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/1/1.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/css/main.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/css/media.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/css/style_middle.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/css/style_header.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/css/common.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/style_header.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/f1news_rab/style_middle.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/project1/style.css",
+		"/C/Users/Администратор/Desktop/Evgeniy/project1/index.html",
+		"/C/Users/Администратор/Desktop/Evgeniy/project1/script.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sex",
+			"init",
+			"itemtask",
+			"',",
+			"index",
+			"dataMine",
+			"mineData",
+			"data",
+			"dataMine",
+			"item",
+			"ctrl",
+			"todoCtrl",
+			", [deleteHandler, editHandler, doneHandler, filterHandler]",
+			"data",
+			"editHandler",
+			"deleteHandler",
+			"render",
+			"mustache",
+			"todolist",
+			"List",
+			"list",
+			"List",
+			"', ",
+			"todolist",
+			"list",
+			"manipulateData",
+			"List",
+			"delItem",
+			"tagScope",
+			"event",
+			"function",
+			"manipulateData",
+			"data",
+			"tagScope",
+			"btns",
+			"href=\"\"",
+			"</li",
+			"css/",
+			"style_header",
+			"float"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"data.items"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								614,
+								614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/projects/teb_project/Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1304,
+								1304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "weatherResource.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}

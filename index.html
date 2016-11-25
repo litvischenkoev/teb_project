@@ -7,14 +7,24 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
-	<script type="text/javascript" src="angular.min.js"></script>
+	<!-- <script type="text/javascript" src="angular.min.js"></script>
 	<script type="text/javascript" src="angular-resource.min.js"></script>
 	<script type="text/javascript" src="angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap-tpls.js"></script>
-    <script type="text/javascript" src="controller.js"></script>
-	<script type="text/javascript" src="validation.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="registrationstyle.css">
+     -->
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-resource/angular-resource.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    
+    <script type="text/javascript" src="js/controller.js"></script>
+	<script type="text/javascript" src="js/weatherCtrl.js"></script>
+	<script type="text/javascript" src="js/validationCtrl.js"></script>
+	<script type="text/javascript" src="js/weatherResource.js"></script>
+	<script type="text/javascript" src="js/validationResource.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/registrationstyle.css">
 	
 </head>
 <body ng-app="weather" ng-controller="weatherCtrl" >
