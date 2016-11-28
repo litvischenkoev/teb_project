@@ -12,10 +12,10 @@ weather.config(function($routeProvider){
 	            templateUrl:'template/registration.html',
 	            controller:'validationCtrl'
 	        })
-        .when('/help',
+        .when('/team',
 	        {
-	            templateUrl:'template/help.html',
-	            controller:'weatherCtrl'
+	            templateUrl:'template/team.html',
+	            controller:'teamCtrl'
 	        })
         .otherwise(
         	{redirectTo: '/'});
@@ -23,6 +23,9 @@ weather.config(function($routeProvider){
 });
 
 
+weather.controller('teamCtrl', function teamCtrl($scope) {
+
+});
 // var registration = angular.module('registration', ['ngResource','ngAnimate', 'ngSanitize', 'ui.bootstrap']);
 
 weather.controller('validationCtrl', function validationCtrl($scope) {

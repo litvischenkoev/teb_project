@@ -12,28 +12,30 @@
 	<script type="text/javascript" src="angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap-tpls.js"></script>
      -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/jqueryui/dist/jquery-ui.min.js"></script>
     <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
-	<script type="text/javascript" src="node_modules/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-resource/angular-resource.min.js"></script>
 	<script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+   	<script type="text/javascript" src="node_modules/angular-dragdrop/src/angular-dragdrop.min.js"></script>
+
     
     <script type="text/javascript" src="js/controller.js"></script>
 	<script type="text/javascript" src="js/weatherCtrl.js"></script>
 	<script type="text/javascript" src="js/validationCtrl.js"></script>
+	<script type="text/javascript" src="js/teamCtrl.js"></script>
 	<script type="text/javascript" src="js/weatherResource.js"></script>
 	<script type="text/javascript" src="js/validationResource.js"></script>
+
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/registrationstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/team.css">
 	
 </head>
 <body ng-app="weather" ng-controller="weatherCtrl" >
-	<ul class="nav nav-tabs nav-justified">
-		<li><a href="#/">Главная</a></li>
-		<li><a href="#/weather">Weather</a></li>
-		<li><a href="#/registration">Registration</a></li>
-		<li><a href="#/help">Help</a></li>
-	</ul>
+	<div ng-include="'template/header.html'"></div>
 	<div ng-view></div>
 			
 </body>

@@ -12,10 +12,10 @@ weather.config(function($routeProvider){
 	            templateUrl:'template/registration.html',
 	            controller:'validationCtrl'
 	        })
-        .when('/help',
+        .when('/team',
 	        {
-	            templateUrl:'template/help.html',
-	            controller:'weatherCtrl'
+	            templateUrl:'template/team.html',
+	            controller:'teamCtrl'
 	        })
         .otherwise(
         	{redirectTo: '/'});

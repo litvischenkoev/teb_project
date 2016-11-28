@@ -1,0 +1,30 @@
+.team-conteiner {
+	float: left;
+	margin-left: 50px;
+	width: 200px;
+	height: 100%;
+	background-color: white;
+	border: 2px solid grey;
+}
+.player {
+	height: 30px;
+	width: 100%;
+	padding-left: 15px;
+	color: black;
+	border: 1px solid black;
+}
+.player:hover {
+	cursor: move;
+}
+
+
+.team-player-conteiner {
+	margin-left: 400px;
+	height: 400px;
+	width: 200px;
+}
+.team-player {
+	height: 150px;
+	background-color: white;
+	border: 1px solid black;
+}
